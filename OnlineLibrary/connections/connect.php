@@ -1,7 +1,7 @@
 <?php
 $server = "localhost";
 $user = "root";
-$password = "kamat@9500";
+$password = "";
 $db = "onlinelibrary";
 
 $con = mysqli_connect($server,$user,$password,$db);
