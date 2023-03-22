@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.main{
+    width: auto;
+    background-position: center;
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-color:#d7dbe7;
+    height:auto;
+    min-height: 100vh;
+
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+   background-color: #0B2361;
+}
+.menu ul {
+  width: 100%;
+  text-align: center;
+}
+
+.menu ul li{
+  list-style: none;
+  margin-top: 15px;
+  display: inline-block;
+ 
+  font-size: 20px;
+  margin-left: 25px;
+  margin-right: 25px;
+  
+}
+.menu ul li a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #E9ECF4;
+  font-family: 'Times New Roman'; 
+}
+.menu ul li a:hover{
+  color: #feb05f;
+}
+.profile{
+  color: #000;
+  margin-left: 75px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+.profile span1{
+  margin-left: 10px;
+  color: #f1554c;
+  font-size: 60px;
+}
+.profile h1{
+  pointer-events: none;
+ }
+.profile h3{
+  pointer-events: none;
+  text-align: right;
+  margin-right: 50px;
+  margin-top: -25px;
+}
+.profile span{
+  pointer-events: none;
+  margin-left: 25px;
+}
+.course ul li{
+  display: inline-block;
+  list-style: none;
+  background:content-box;
+    font-size: 20px;
+    margin-left: 25px;
+    margin-right: 350px;
+    margin-bottom: 275px;
+    margin-top: 25px;
+    text-align: center;
+}
+.course ul li a{
+  position: absolute;
+  width: 350px;
+  padding-bottom: 10px;
+    text-decoration: none;
+    color: #0B2361;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    transition: 1.5s ease;
+    background-color: #ef91a1;
+    opacity: 0.85;
+    text-align: center;
+    border-radius: 30px;
+    transition: step-start;
+    font-size: larger;
+}
+.course ul li a:hover{
+    color: #E9ECF4 ;
+    background-color: #f1554c ;
+    opacity: 10;
+    transition: 0.5s ease;
+}
+.course img{
+  border-radius: 30px;
+  opacity: 0.55;
+  width: 300px;
+  height: 225px;
+  padding-top: 10px;
+  
+}
